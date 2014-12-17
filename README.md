@@ -55,3 +55,5 @@ The structure of tidy.txt is of a 4-column CSV file where the columns are:
  - Activity textual description 
  - Variable that is being measured
  - Mean value of all measurements for the given subject, activity, and variable
+ 
+Please see CodeBook.md for further details
