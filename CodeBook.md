@@ -27,7 +27,7 @@ Activity labels are substituted in the output tidy dataset by matching activity 
 
 ## Column 3: Variable
 
-Feature names from the raw file "features.txt". Only those feature names that contained either "mean" or "std" in their name have been retained, while the others have been discared. 
+Feature names from the raw file "features.txt". Only those feature names that contained either "mean" or "std" in their name have been retained, while the others have been discared. There are 79 feature names that are retained.
 
 ## Column 4: Mean Value
 
