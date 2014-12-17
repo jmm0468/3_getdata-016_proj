@@ -26,23 +26,23 @@ The script also expects the following packages to be installed:
 
 The script will display messages such as the following as it progresses:
 
-> source("run_analysis.R")
-[1] "Getting activities"
-[1] "Getting features"
-[1] "Getting training readings"
-[1] "Getting training activities"
-[1] "Getting training subjects"
-[1] "Merging training data"
-[1] "Trimming training variables to means and standard deviations"
-[1] "Getting test readings"
-[1] "Getting test activities"
-[1] "Getting test subjects"
-[1] "Merging test data"
-[1] "Trimming test variables to means and standard deviations"
-[1] "Merging training and test data"
-[1] "Creating tidy dataset..."
-[1] "Writing tidy dataset to tidy.txt"
-[1] "Done"
+  > source("run_analysis.R")
+  [1] "Getting activities"
+  [1] "Getting features"
+  [1] "Getting training readings"
+  [1] "Getting training activities"
+  [1] "Getting training subjects"
+  [1] "Merging training data"
+  [1] "Trimming training variables to means and standard deviations"
+  [1] "Getting test readings"
+  [1] "Getting test activities"
+  [1] "Getting test subjects"
+  [1] "Merging test data"
+  [1] "Trimming test variables to means and standard deviations"
+  [1] "Merging training and test data"
+  [1] "Creating tidy dataset..."
+  [1] "Writing tidy dataset to tidy.txt"
+  [1] "Done"
 
 # Postconditions
 
