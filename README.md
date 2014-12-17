@@ -26,6 +26,7 @@ The script also expects the following packages to be installed:
 
 The script will display messages such as the following as it progresses:
 
+~~~~
   > source("run_analysis.R")
   [1] "Getting activities"
   [1] "Getting features"
@@ -43,6 +44,7 @@ The script will display messages such as the following as it progresses:
   [1] "Creating tidy dataset..."
   [1] "Writing tidy dataset to tidy.txt"
   [1] "Done"
+~~~~
 
 # Postconditions
 
