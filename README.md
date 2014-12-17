@@ -42,15 +42,15 @@ The script will display messages such as the following as it progresses:
   [1] "Trimming test variables to means and standard deviations"
   [1] "Merging training and test data"
   [1] "Creating tidy dataset..."
-  [1] "Writing tidy dataset to tidy.txt"
+  [1] "Writing tidy dataset to tidy.csv"
   [1] "Done"
 ~~~~
 
 # Postconditions
 
-The script will complete and produce a file "tidy.txt" in the same working directory as run_analysis.R
+The script will complete and produce a file "tidy.csv" in the same working directory as run_analysis.R
 
-The structure of tidy.txt is of a 4-column CSV file where the columns are:
+The structure of tidy.csv is of a 4-column CSV file where the columns are:
  - Subject ID from the test or training datasets
  - Activity textual description 
  - Variable that is being measured

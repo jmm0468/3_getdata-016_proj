@@ -3,7 +3,7 @@ Getting and Cleaning Data Course Project Code Book
 
 # Format
 
-The tidy.txt dataset is a CSV file with four columns.
+The tidy.csv dataset is a CSV file with four columns.
 
 # Columns
 
@@ -48,3 +48,23 @@ The following is a sample of the first few lines of the tidy data:
 1,"WALKING","tGravityAcc-mean()-X",0.935223201473684
 1,"WALKING","tGravityAcc-mean()-Y",-0.282165021263158
 ~~~~
+
+# Transformation Details
+
+The following steps describe the process of producing the tidy dataset:
+ * Check that untidy directory exists, if not, unzip zip file. If zip doesn't exist, stop.
+ * Remember the current working directory, so it can be restored later
+ * Read activities and features into data tables
+ * Training data and testing data
+  * Read all data (X_, y_, subject_ files), 
+  * merge them into the same data table, 
+  * apply sensible column names by using the features data table,
+  * replace activity numbers with factors, 
+  * trim data table columns to only keep the subject, activity, and variable names containing "mean" or "std" in the name
+ * Merge training and testing data into the same data table
+ * Produce tidy dataset and write to disk
+  * "Melt" the combined dataset so it can be summarized more easily. The melting process places all columns not subject or activity as entres in a new "variable" row, with the corresponding value in the next column
+  * Group the rows by subject, activity, and variable
+  * Summarize rows by subject, activity, and variable by calculating the mean value of observations
+  * Restore working directory
+  * Store resulting data table to disk as tidy.csv
